@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {chapter}{\numberline {2}Prediction models}{3}{}%
+\contentsline {section}{\numberline {2.1}Linear Regression Models}{3}{}%
+\contentsline {section}{\numberline {2.2}Linear prediction}{9}{}%
+\contentsline {subsection}{\numberline {2.2.1}Short-term linear prediction}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Parameters estimation}{10}{}%
+\contentsline {section}{\numberline {2.3}Non-linear Prediction models}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}Long-term linear prediction}{14}{}%
+\contentsline {section}{\numberline {2.4}Linear Model with Transportation Delay}{14}{}%
+\contentsline {section}{\numberline {2.5}Non-linear Model with Transportation Delay}{15}{}%
+\contentsline {section}{\numberline {2.6}Behavioral models}{16}{}%
+\contentsline {subsection}{\numberline {2.6.1}Game Theory}{16}{}%
+\contentsline {subsection}{\numberline {2.6.2}Utility Theory}{18}{}%
+\contentsline {subsection}{\numberline {2.6.3}Bayesian Decision Theory}{19}{}%
+\contentsline {subsection}{\numberline {2.6.4}Stochastic Models}{21}{}%
+\contentsline {subsection}{\numberline {2.6.5}Network Models}{23}{}%
+\contentsline {chapter}{\numberline {3}Controlling}{25}{}%
+\contentsline {section}{\numberline {3.1}Linear and non-linear models}{26}{}%
+\contentsline {section}{\numberline {3.2}Behavioral models}{29}{}%

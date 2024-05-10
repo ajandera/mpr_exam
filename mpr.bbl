@@ -1,0 +1,1116 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{WOS:A1990DY40800023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9b79aba2a124253d48249d2add98e00c}{%
+           family={BAKER},
+           familyi={B\bibinitperiod},
+           given={DN},
+           giveni={D\bibinitperiod}}}%
+        {{hash=03ac990e0e30a1dd9d67bf52be55f27a}{%
+           family={MCPHERRON},
+           familyi={M\bibinitperiod},
+           given={RL},
+           giveni={R\bibinitperiod}}}%
+        {{hash=48ef69cc4f390d6fae97ba79124dcb88}{%
+           family={CAYTON},
+           familyi={C\bibinitperiod},
+           given={TE},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f80b85ec7987188262175f1c2618af5a}{%
+           family={KLEBESADEL},
+           familyi={K\bibinitperiod},
+           given={RW},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {2000 FLORIDA AVE NW, WASHINGTON, DC 20009 USA}%
+      }
+      \list{publisher}{1}{%
+        {AMER GEOPHYSICAL UNION}%
+      }
+      \strng{namehash}{cc46307ad59b89b51ea95e4ca46b3e06}
+      \strng{fullhash}{b9c8582eff5d1c3b3d27d893fdbf7646}
+      \strng{bibnamehash}{cc46307ad59b89b51ea95e4ca46b3e06}
+      \strng{authorbibnamehash}{cc46307ad59b89b51ea95e4ca46b3e06}
+      \strng{authornamehash}{cc46307ad59b89b51ea95e4ca46b3e06}
+      \strng{authorfullhash}{b9c8582eff5d1c3b3d27d893fdbf7646}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-9380}
+      \field{journaltitle}{JOURNAL OF GEOPHYSICAL RESEARCH-SPACE PHYSICS}
+      \field{month}{9}
+      \field{number}{A9}
+      \field{title}{LINEAR PREDICTION FILTER ANALYSIS OF RELATIVISTIC ELECTRON PROPERTIES AT 6.6 RE}
+      \field{type}{Article}
+      \field{volume}{95}
+      \field{year}{1990}
+      \field{pages}{15133\bibrangedash 15140}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1029/JA095iA09p15133
+      \endverb
+    \endentry
+    \entry{bondy2008graph}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d63dfbf2d538d6068f623afa57568729}{%
+           family={Bondy},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima Adrian},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3f3abd91dff222f8f6da0e73895cb828}{%
+           family={Murty},
+           familyi={M\bibinitperiod},
+           given={Uppaluri\bibnamedelimb Siva\bibnamedelima Ramachandra},
+           giveni={U\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Publishing Company, Incorporated}%
+      }
+      \strng{namehash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \strng{fullhash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \strng{bibnamehash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \strng{authorbibnamehash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \strng{authornamehash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \strng{authorfullhash}{b3171dae8800ba1f0031e3bd4b58bdbd}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph theory}
+      \field{year}{2008}
+    \endentry
+    \entry{WOS:000266982600001}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=2db62495f0ba515c09e4b7e97e61267c}{%
+           family={Cryer},
+           familyi={C\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e2c8d4ffd690dceba37e6f79763b9e4a}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Kung-Sik},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {233 SPRING STREET, NEW YORK, NY 10013, UNITED STATES}%
+      }
+      \list{publisher}{1}{%
+        {SPRINGER}%
+      }
+      \strng{namehash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \strng{fullhash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \strng{bibnamehash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \strng{authorbibnamehash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \strng{authornamehash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \strng{authorfullhash}{8cf2d9c3249a5c330ecc6467e35ced71}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{TIME SERIES ANALYSIS: WITH APPLICATIONS IN R, SECOND EDITION}
+      \field{isbn}{978-0-387-75958-6}
+      \field{series}{Springer Texts in Statistics}
+      \field{title}{Time Series Analysis With Applications in R Second Edition INTRODUCTION}
+      \field{type}{Editorial Material; Book Chapter}
+      \field{year}{2008}
+      \field{pages}{1+}
+      \range{pages}{-1}
+    \endentry
+    \entry{WOS:000980444400020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f93922398d4bebee3cca1ff441d20a2e}{%
+           family={Falconer},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bf087b1e51b3c66ad2a86692b4fe73ca}{%
+           family={Mones},
+           familyi={M\bibinitperiod},
+           given={Letif},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC}%
+      }
+      \strng{namehash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \strng{fullhash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \strng{bibnamehash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \strng{authorbibnamehash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \strng{authornamehash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \strng{authorfullhash}{5d3a850b8b07cd53bb11ff4bc8b7f0a6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning assisted optimal power flow (OPF) aims to reduce the computational complexity of these non-linear and non-convex constrained optimization problems by consigning expensive (online) optimization to offline training. The majority of work in this area typically employs fully connected neural networks (FCNN). However, recently convolutional (CNN) and graph (GNN) neural networks have also been investigated, in effort to exploit topological information within the power grid. Although promising results have been obtained, there lacks a systematic comparison between these architectures throughout literature. Accordingly, we introduce a concise framework for generalizing methods for machine learning assisted OPF and assess the performance of a variety of FCNN, CNN and GNN models for two fundamental approaches in this domain: regression (predicting optimal generator set-points) and classification (predicting the active set of constraints). For several synthetic power grids with interconnected utilities, we show that locality properties between feature and target variables are scarce and subsequently demonstrate marginal utility of applying CNN and GNN architectures compared to FCNN for a fixed grid topology. However, with variable topology (for instance, modeling transmission line contingency), GNN models are able to straightforwardly take the change of topological information into account and outperform both FCNN and CNN models.}
+      \field{issn}{0885-8950}
+      \field{journaltitle}{IEEE TRANSACTIONS ON POWER SYSTEMS}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Leveraging Power Grid Topology in Machine Learning Assisted Optimal Power Flow}
+      \field{type}{Article}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{pages}{2234\bibrangedash 2246}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPWRS.2022.3187218
+      \endverb
+      \keyw{Optimization; Generators; Topology; Security; Machine learning; Convolutional neural networks; Training; OPF; graph theory; neural networks}
+    \endentry
+    \entry{WOS:000415735500004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5918d4fca2f6e44418a3df2e900d8b19}{%
+           family={Fenga},
+           familyi={F\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {111 RIVER ST, HOBOKEN 07030-5774, NJ USA}%
+      }
+      \list{publisher}{1}{%
+        {WILEY}%
+      }
+      \strng{namehash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \strng{fullhash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \strng{bibnamehash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \strng{authorbibnamehash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \strng{authornamehash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \strng{authorfullhash}{5918d4fca2f6e44418a3df2e900d8b19}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Noise-affected economic time series, realizations of stochastic processes exhibiting complex and possibly nonlinear dynamics, are dealt with. This is often the case of time series found in economics, which notoriously suffer from problems such as low signal-to-noise ratios, asymmetric cycles and multiregimes patterns. In such a framework, even sophisticated statistical models might generate suboptimal predictions, whose quality can further deteriorate unless time consuming updating or deeper model revision procedures are carried out on a regular basis. However, when the models' outcomes are expected to be disseminated in timeliness manner (as in the case of Central Banks or national statistical offices), their modification might not be a viable solution, due to time constraints. On the other hand, if the application of simpler linear models usually entails relatively easier tuning-up procedures, this would come at the expenses of the quality of the predictions yielded. A mixed, self-tuning forecasting method is therefore proposed. This is an automatic, 2-stage procedure, able to generate predictions by exploiting the denoising capabilities provided by the wavelet theory in conjunction with a compounded forecasting generator. Its out-of-sample performances are evaluated through an empirical study carried out on macroeconomic time series.}
+      \field{issn}{1932-1864}
+      \field{journaltitle}{STATISTICAL ANALYSIS AND DATA MINING}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{A wavelet threshold denoising procedure for multimodel predictions: An application to economic time series}
+      \field{type}{Article}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{pages}{410\bibrangedash 421}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/sam.11351
+      \endverb
+      \keyw{SARIMA models; SETAR models; time series forecast; wavelet}
+    \endentry
+    \entry{WOS:000988346000001}{article}{}
+      \name{author}{9}{}{%
+        {{hash=0ded16a1b3dfc7a146ad1f62467d19f0}{%
+           family={Ferriol-Galmes},
+           familyi={F\bibinithyphendelim G\bibinitperiod},
+           given={Miquel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7052aa3beb870d8e6499ad18c08f8914}{%
+           family={Paillisse},
+           familyi={P\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b7b3398299fb5af90c4a5ed97d4b891}{%
+           family={Suarez-Varela},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0f4868314726ad37e3ff6269c6f0de9c}{%
+           family={Rusek},
+           familyi={R\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=43c1cc3b2cdce5a3c5a1b7f07bdf1295}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Shihan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da3fa8e93fd43f50545293753cb52991}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=26c6babe762a81bd5a7419262e3a6914}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Xiangle},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a830dfe56b3e48f80409684baf89f0aa}{%
+           family={Barlet-Ros},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Pere},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d5ebe55c68663d7c097ff835e0511e76}{%
+           family={Cabellos-Aparicio},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC}%
+      }
+      \strng{namehash}{cfabe16dc0589766b466b0d5242e2f0f}
+      \strng{fullhash}{76df80cf5a11021ef31ea49347aa1dd6}
+      \strng{bibnamehash}{cfabe16dc0589766b466b0d5242e2f0f}
+      \strng{authorbibnamehash}{cfabe16dc0589766b466b0d5242e2f0f}
+      \strng{authornamehash}{cfabe16dc0589766b466b0d5242e2f0f}
+      \strng{authorfullhash}{76df80cf5a11021ef31ea49347aa1dd6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Network models are an essential block of modern networks. For example, they are widely used in network planning and optimization. However, as networks increase in scale and complexity, some models present limitations, such as the assumption of Markovian traffic in queuing theory models, or the high computational cost of network simulators. Recent advances in machine learning, such as Graph Neural Networks (GNN), are enabling a new generation of network models that are data-driven and can learn complex non-linear behaviors. In this paper, we present RouteNet-Fermi, a custom GNN model that shares the same goals as Queuing Theory, while being considerably more accurate in the presence of realistic traffic models. The proposed model predicts accurately the delay, jitter, and packet loss of a network. We have tested RouteNet-Fermi in networks of increasing size (up to 300 nodes), including samples with mixed traffic profiles - e.g., with complex non-Markovian models - and arbitrary routing and queue scheduling configurations. Our experimental results show that RouteNet-Fermi achieves similar accuracy as computationally-expensive packet-level simulators and scales accurately to larger networks. Our model produces delay estimates with a mean relative error of 6.24\% when applied to a test dataset of 1,000 samples, including network topologies one order of magnitude larger than those seen during training. Finally, we have also evaluated RouteNet-Fermi with measurements from a physical testbed and packet traces from a real-life network.}
+      \field{issn}{1063-6692}
+      \field{journaltitle}{IEEE-ACM TRANSACTIONS ON NETWORKING}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{RouteNet-Fermi: Network Modeling With Graph Neural Networks}
+      \field{type}{Article}
+      \field{volume}{31}
+      \field{year}{2023}
+      \field{pages}{3080\bibrangedash 3095}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TNET.2023.3269983
+      \endverb
+      \keyw{Computational modeling; Analytical models; Training; Routing; Graph neural networks; Queueing analysis; Delays; Network modeling; graph neural networks; queuing theory}
+    \endentry
+    \entry{WOS:000426617000001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fdf384a0bee00655317a420c9a258d18}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Huisu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ab7ed8d7d93e7aa6a5e98e6bd6e3041e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaewook},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC}%
+      }
+      \strng{namehash}{e9794f5c7e5342281bf07e608c94a39e}
+      \strng{fullhash}{e9794f5c7e5342281bf07e608c94a39e}
+      \strng{bibnamehash}{e9794f5c7e5342281bf07e608c94a39e}
+      \strng{authorbibnamehash}{e9794f5c7e5342281bf07e608c94a39e}
+      \strng{authornamehash}{e9794f5c7e5342281bf07e608c94a39e}
+      \strng{authorfullhash}{e9794f5c7e5342281bf07e608c94a39e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bitcoin has recently attracted considerable attention in the fields of economics, cryptography, and computer science due to its inherent nature of combining encryption technology and monetary units. This paper reveals the effect of Bayesian neural networks (BNNs) by analyzing the time series of Bitcoin process. We also select the most relevant features from Blockchain information that is deeply involved in Bitcoin's supply and demand and use them to train models to improve the predictive performance of the latest Bitcoin pricing process. We conduct the empirical study that compares the Bayesian neural network with other linear and non-linear benchmark models on modeling and predicting the Bitcoin process. Our empirical studies show that BNN performs well in predicting Bitcoin price time series and explaining the high volatility of the recent Bitcoin price.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE ACCESS}
+      \field{title}{An Empirical Study on Modeling and Prediction of Bitcoin Prices With Bayesian Neural Networks Based on Blockchain Information}
+      \field{type}{Article}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{5427\bibrangedash 5437}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2017.2779181
+      \endverb
+      \keyw{Bitcoin; blockchain; Bayesian neural network; time-series analysis; predictive model}
+    \endentry
+    \entry{WOS:000466708200028}{article}{}
+      \name{author}{6}{}{%
+        {{hash=41315bdfb0451d6bf0d0c0a89506d84a}{%
+           family={Mourgias-Alexandris},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=563124624bd7edc187052914461f5c29}{%
+           family={Tsakyridis},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1ddd648619cc07e899f4ea42a7408e5a}{%
+           family={Passalis},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b346bc05b02e54c3df87cb50bcb08a04}{%
+           family={Tefas},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=52f88c81b1388c739ec1e89d792ba155}{%
+           family={Vyrsokinos},
+           familyi={V\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e5f8f35f4c0f4b29b665cd6f87c0f4a9}{%
+           family={Pleros},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {2010 MASSACHUSETTS AVE NW, WASHINGTON, DC 20036 USA}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{cd3df023dc54c4ea48d4cf5bb1a2fb7b}
+      \strng{fullhash}{b8a7f644eb682202bf37077e9e3bdd9c}
+      \strng{bibnamehash}{cd3df023dc54c4ea48d4cf5bb1a2fb7b}
+      \strng{authorbibnamehash}{cd3df023dc54c4ea48d4cf5bb1a2fb7b}
+      \strng{authornamehash}{cd3df023dc54c4ea48d4cf5bb1a2fb7b}
+      \strng{authorfullhash}{b8a7f644eb682202bf37077e9e3bdd9c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an all-optical neuron that utilizes a logistic sigmoid activation function, using a Wavelength-Division Multiplexing (WDM) input \& weighting scheme. The activation function is realized by means of a deeply-saturated differentially-biased Semiconductor Optical Amplifier-Mach-Zehnder Interferometer (SOA-MZI) followed by a SOA-Cross-Gain-Modulation (XGM) gate. Its transfer function is both experimentally and theoretically analyzed, showing excellent agreement between theory and experiment and an almost perfect fitting with a logistic sigmoid function. The optical sigmoid transfer function is then exploited in the experimental demonstration of a photonic neuron, demonstrating successful thresholding over a 100psec-long pulse sequence with 4 different weighted-and-summed power levels. (C) 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement}
+      \field{issn}{1094-4087}
+      \field{journaltitle}{OPTICS EXPRESS}
+      \field{month}{4}
+      \field{number}{7}
+      \field{title}{An all-optical neuron with sigmoid activation function}
+      \field{type}{Article}
+      \field{volume}{27}
+      \field{year}{2019}
+      \field{pages}{9620\bibrangedash 9630}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1364/OE.27.009620
+      \endverb
+    \endentry
+    \entry{WOS:000659928700099}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=ce76d812a8cdae223c4fdbd2275fdcfd}{%
+           family={Mvubu},
+           familyi={M\bibinitperiod},
+           given={Mhlasakululeka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=759537eb06b8fd3d45ed22eac2d42c11}{%
+           family={Kabuga},
+           familyi={K\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=81059c0517a5e949d7af63f801168f98}{%
+           family={Plitz},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=785d3d5bd19a651bd94707efe35c7284}{%
+           family={Bah},
+           familyi={B\bibinitperiod},
+           given={Bubacarr},
+           giveni={B\bibinitperiod}}}%
+        {{hash=134a8783b0e0473a330c1d262112481f}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Ronnie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=67bbe8b09c612a3ded56c62b847f67f3}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Hans\bibnamedelima Georg},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {345 E 47TH ST, NEW YORK, NY 10017 USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{400f429746784bba4835ecc07682a8b7}
+      \strng{fullhash}{7a2e8b416c558bbd83b4ccbd1808c322}
+      \strng{bibnamehash}{400f429746784bba4835ecc07682a8b7}
+      \strng{authorbibnamehash}{400f429746784bba4835ecc07682a8b7}
+      \strng{authornamehash}{400f429746784bba4835ecc07682a8b7}
+      \strng{authorfullhash}{7a2e8b416c558bbd83b4ccbd1808c322}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recurrent neural networks (RNNs) are more suitable for learning non-linear dependencies in dynamical systems from observed time series data. In practice, all the external variables driving such systems are not known a priori, especially in economical forecasting. A class of RNNs called Error Correction Neural Networks (ECNNs) was designed to compensate for missing input variables. It does this by feeding back in the current step the error made in the previous step. The ECNN is implemented in Python by the computation of the appropriate gradients and it is tested on stock market predictions. As expected it outperformed the simple RNN and LSTM and other hybrid models which involve a de-noising pre-processing step. The intuition for the latter is that de-noising may lead to loss of information.}
+      \field{booktitle}{PROCEEDINGS OF 2020 23RD INTERNATIONAL CONFERENCE ON INFORMATION FUSION (FUSION 2020)}
+      \field{isbn}{978-0-578-64709-8}
+      \field{note}{23rd International Conference on Information Fusion (FUSION), ELECTR NETWORK, JUL 06-09, 2020}
+      \field{title}{On Error Correction Neural Networks for Economic Forecasting}
+      \field{type}{Proceedings Paper}
+      \field{year}{2020}
+      \field{pages}{735\bibrangedash 742}
+      \range{pages}{8}
+      \keyw{neural networks; RNN; LSTM; ECNN; deep learning; economics; forecasting}
+    \endentry
+    \entry{WOS:A1989AG08300005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=35babef7c965d042c7efae09b92898cc}{%
+           family={PESARAN},
+           familyi={P\bibinitperiod},
+           given={MH},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef91e86e045a8f74669bb867b7778eb2}{%
+           family={PIERSE},
+           familyi={P\bibinitperiod},
+           given={RG},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e1716e7c6cdb79a828be54f83d40dec8}{%
+           family={KUMAR},
+           familyi={K\bibinitperiod},
+           given={MS},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {C/O BASIL BLACKWELL LTD, C/O MARSTON BOOK SERVICES, PO BOX 87, OXFORD, OXON, ENGLAND OX2 0DT}%
+      }
+      \list{publisher}{1}{%
+        {ECONOMETRIC SOCIETY}%
+      }
+      \strng{namehash}{330a8b7c224a18b44de914448d48ee70}
+      \strng{fullhash}{330a8b7c224a18b44de914448d48ee70}
+      \strng{bibnamehash}{330a8b7c224a18b44de914448d48ee70}
+      \strng{authorbibnamehash}{330a8b7c224a18b44de914448d48ee70}
+      \strng{authornamehash}{330a8b7c224a18b44de914448d48ee70}
+      \strng{authorfullhash}{330a8b7c224a18b44de914448d48ee70}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-9682}
+      \field{journaltitle}{ECONOMETRICA}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{ECONOMETRIC-ANALYSIS OF AGGREGATION IN THE CONTEXT OF LINEAR PREDICTION MODELS}
+      \field{type}{Article}
+      \field{volume}{57}
+      \field{year}{1989}
+      \field{pages}{861\bibrangedash 888}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.2307/1913775
+      \endverb
+    \endentry
+    \entry{WOS:000836807400001}{article}{}
+      \name{author}{80}{}{%
+        {{hash=8a8906bc431b0399f6be129d2e1271a1}{%
+           family={Petropoulos},
+           familyi={P\bibinitperiod},
+           given={Fotios},
+           giveni={F\bibinitperiod}}}%
+        {{hash=979345ddc3871991d2711740a90c5144}{%
+           family={Apiletti},
+           familyi={A\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c84a88720d8401a0259918f2eb3bec78}{%
+           family={Assimakopoulos},
+           familyi={A\bibinitperiod},
+           given={Vassilios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5bf76a5efd4966caeab3ebf8cefbb23a}{%
+           family={Babai},
+           familyi={B\bibinitperiod},
+           given={Mohamed\bibnamedelima Zied},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=6bb9de163b385d8f5372add5910625bc}{%
+           family={Barrow},
+           familyi={B\bibinitperiod},
+           given={Devon\bibnamedelima K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=43eddde3c0f7ec0931021909de0cfd24}{%
+           family={Ben\bibnamedelima Taieb},
+           familyi={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Souhaib},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fb7be81f0574878d688bb03f0abb8502}{%
+           family={Bergmeir},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a6cf737840a317ac8799a289fa2c64bb}{%
+           family={Bessa},
+           familyi={B\bibinitperiod},
+           given={Ricardo\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7665669d80744c6f2d7f00b15b293fb0}{%
+           family={Bijak},
+           familyi={B\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23fa1c390784ec40d60cea6ec6c6cfe6}{%
+           family={Boylan},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3f214230a20c618ab9ac314114be44a8}{%
+           family={Browell},
+           familyi={B\bibinitperiod},
+           given={Jethro},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c2236fd9843c2ee6110b40b2c39dc9b}{%
+           family={Carnevale},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52a025d1d4e392b54ed53a39dbf9a2e4}{%
+           family={Castle},
+           familyi={C\bibinitperiod},
+           given={Jennifer\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e1cc80d2fa2c62ae7e1378a18df80cd0}{%
+           family={Cirillo},
+           familyi={C\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0f6ea0e68f1008d34fdfe86012adf11a}{%
+           family={Clements},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=deb7f3826493c23d907aa4f7e91467ff}{%
+           family={Cordeiro},
+           familyi={C\bibinitperiod},
+           given={Clara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=daff571a4c7477b4720c500a1144ba43}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Fernando\bibnamedelimb Luiz\bibnamedelima Cyrino},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bcc8722bde12b2a79b5cad9c933329a6}{%
+           family={De\bibnamedelima Baets},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Shari},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c2bea6d7ad6f2c7faeeab78b34d55e6}{%
+           family={Dokumentov},
+           familyi={D\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=70c03fef022c7b00490a27df32694554}{%
+           family={Ellison},
+           familyi={E\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=11cbd1f4e08a584f9371746b392f8bf1}{%
+           family={Fiszeder},
+           familyi={F\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=38543854ffc822bc9f65b5e7f0719b2f}{%
+           family={Franses},
+           familyi={F\bibinitperiod},
+           given={Philip\bibnamedelima Hans},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=88962fdf5919f043cda5a9174eacb17d}{%
+           family={Frazier},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4cec14bcd5420dbd63fd8ea97118af68}{%
+           family={Gilliland},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6bf8003415b847c381ab2a2ecf5173dc}{%
+           family={Gonul},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi Sinan},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=171877588bfe53b7578ef9daf8d5fa64}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=45bc4b008ac622f845005a103181fb0d}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1c55d98738d8b1d3d73454d951d8b762}{%
+           family={Grushka-Cockayne},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Yael},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a315b9fdd064f8074b8e495815f36e8d}{%
+           family={Guidolin},
+           familyi={G\bibinitperiod},
+           given={Mariangela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=99abfa3b83457e521eb56c2375131054}{%
+           family={Guidolin},
+           familyi={G\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=deeef86605bf79e12fb10efe71011232}{%
+           family={Gunter},
+           familyi={G\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=c3ecce78dea563284e4855cfc6540314}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Xiaojia},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ffb7bb59649c6f8a07dea2b66ceaa472}{%
+           family={Guseo},
+           familyi={G\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+        {{hash=72abd4bb1bedb56bfaf5cafbc16d8101}{%
+           family={Harvey},
+           familyi={H\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6816e7c37c57bf4a47d33394a8562e5e}{%
+           family={Hendry},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d65faf15b6451e4edac2b6b283625944}{%
+           family={Hollyman},
+           familyi={H\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9e5ccec71d72e905905574627253f5f7}{%
+           family={Januschowski},
+           familyi={J\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dc0e396e80f690d6410723782a1dbb25}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Jooyoung},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2e006493aa7fdb8336e10007a58f67f}{%
+           family={Jose},
+           familyi={J\bibinitperiod},
+           given={Victor\bibnamedelimb Richmond\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=19cdef69ea6e417b04dbe89b2bca786b}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yanfei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e1d517a3ae1d7b892371ef8f37f88412}{%
+           family={Koehler},
+           familyi={K\bibinitperiod},
+           given={Anne\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c9f2e9005502eee18a858f4411539357}{%
+           family={Kolassa},
+           familyi={K\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1ef5c7d50e5aae1dfaf4d280be2a78e9}{%
+           family={Kourentzes},
+           familyi={K\bibinitperiod},
+           given={Nikolaos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=13c9d358d811c1a18186a2140a772eed}{%
+           family={Leva},
+           familyi={L\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b9fbdbe80f6a6e1fe40dcb01c8638b61}{%
+           family={Litsiou},
+           familyi={L\bibinitperiod},
+           given={Konstantia},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ba8241955b5282793fdcf2d43c398cc6}{%
+           family={Makridakis},
+           familyi={M\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70bd0b0b75505e5ef4d1c442425427a3}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Gael\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b8b9453b17be7b84c42244e866c38d64}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e8df1b0758ab5d1a2370d1673d80d290}{%
+           family={Meeran},
+           familyi={M\bibinitperiod},
+           given={Sheik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=39014c636c2aede97e0145ba96910477}{%
+           family={Modis},
+           familyi={M\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=10fdf01556b8158a0de2cf0700e66358}{%
+           family={Nikolopoulos},
+           familyi={N\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=35fd62e8e0a082a3d2b3f99374df137a}{%
+           family={Onkal},
+           familyi={O\bibinitperiod},
+           given={Dilek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f43ac8b315135430ef8f2f153f1c0dc2}{%
+           family={Paccagnini},
+           familyi={P\bibinitperiod},
+           given={Alessia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9345b6b3eae8a07ae0355400dc74983c}{%
+           family={Panagiotelis},
+           familyi={P\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d513c926f47fffa73a3d9f6777546ce4}{%
+           family={Panapakidis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e9bffe2558c449cc4da8b52d40ea55c2}{%
+           family={Pavia},
+           familyi={P\bibinitperiod},
+           given={Jose\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=414d52b63f2c2a31df59fea0aa6c1b71}{%
+           family={Pedio},
+           familyi={P\bibinitperiod},
+           given={Manuela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=706fc02a7b9fa720d902634d148023c6}{%
+           family={Pedregal},
+           familyi={P\bibinitperiod},
+           given={Diego\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f868152a252ba8f399a537f3a95cf9f3}{%
+           family={Pinson},
+           familyi={P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c22ded9472f605d69fa789bfad5354d6}{%
+           family={Ramos},
+           familyi={R\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a033409087b8c7f3882609ece3eb553f}{%
+           family={Rapach},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=63b0b5005ac2e7f288b7bdd7e781c06e}{%
+           family={Reade},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi James},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=499ddcb422c0a8b7df9fcd5f9e2a5653}{%
+           family={Rostami-Tabar},
+           familyi={R\bibinithyphendelim T\bibinitperiod},
+           given={Bahman},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cfcd495f3f236b31022859de8b120b60}{%
+           family={Rubaszek},
+           familyi={R\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dedc168b682a224ccdc3f737f6290be3}{%
+           family={Sermpinis},
+           familyi={S\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b04e2dfce5c6209480039ee24f93c954}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Han\bibnamedelima Lin},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1bbd058009b400578fd6334102fc8dec}{%
+           family={Spiliotis},
+           familyi={S\bibinitperiod},
+           given={Evangelos},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7411b2a44b0dfdf6b5445eb80ab52b25}{%
+           family={Syntetos},
+           familyi={S\bibinitperiod},
+           given={Aris\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0ff936aaa17ff1d90670b724a9c9cceb}{%
+           family={Talagala},
+           familyi={T\bibinitperiod},
+           given={Priyanga\bibnamedelima Dilini},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dfb2ec90ee536a5bce03e2cade7d40d6}{%
+           family={Talagala},
+           familyi={T\bibinitperiod},
+           given={Thiyanga\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=70f864ebc3aca3f529aceed974a8eed3}{%
+           family={Tashman},
+           familyi={T\bibinitperiod},
+           given={Len},
+           giveni={L\bibinitperiod}}}%
+        {{hash=49cc45fec6676e24abe5ea234cee3637}{%
+           family={Thomakos},
+           familyi={T\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+        {{hash=494e77ce4f670e47f5881d7fd0d931a0}{%
+           family={Thorarinsdottir},
+           familyi={T\bibinitperiod},
+           given={Thordis},
+           giveni={T\bibinitperiod}}}%
+        {{hash=70c88212522b82098b465afd6ea0afd4}{%
+           family={Todini},
+           familyi={T\bibinitperiod},
+           given={Ezio},
+           giveni={E\bibinitperiod}}}%
+        {{hash=585154f644e762a1c1378974849fb4e4}{%
+           family={Arenas},
+           familyi={A\bibinitperiod},
+           given={Juan\bibnamedelimb Ramon\bibnamedelima Trapero},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=201ce602c48237b8f58d2607ae3dc96e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=382fd377c2e507eee344d8ec54b70b02}{%
+           family={Winkler},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d23ee58fbb2e15e33eadc5603e3901ce}{%
+           family={Yusupova},
+           familyi={Y\bibinitperiod},
+           given={Alisa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b84096dff196730e7468c55326fa0a0e}{%
+           family={Ziel},
+           familyi={Z\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS}%
+      }
+      \list{publisher}{1}{%
+        {ELSEVIER}%
+      }
+      \strng{namehash}{20ac7f018d68562ead57de4ddc175579}
+      \strng{fullhash}{264d3c1c2802c9280d1c90c069410e0e}
+      \strng{bibnamehash}{20ac7f018d68562ead57de4ddc175579}
+      \strng{authorbibnamehash}{20ac7f018d68562ead57de4ddc175579}
+      \strng{authornamehash}{20ac7f018d68562ead57de4ddc175579}
+      \strng{authorfullhash}{264d3c1c2802c9280d1c90c069410e0e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Forecasting has always been at the forefront of decision making and planning. The uncertainty that surrounds the future is both exciting and challenging, with individuals and organisations seeking to minimise risks and maximise utilities. The large number of forecasting applications calls for a diverse set of forecasting methods to tackle real-life challenges. This article provides a non-systematic review of the theory and the practice of forecasting. We provide an overview of a wide range of theoretical, state-of-the-art models, methods, principles, and approaches to prepare, produce, organise, and evaluate forecasts. We then demonstrate how such theoretical concepts are applied in a variety of real-life contexts. We do not claim that this review is an exhaustive list of methods and applications. However, we wish that our encyclopedic presentation will offer a point of reference for the rich work that has been undertaken over the last decades, with some key insights for the future of forecasting theory and practice. Given its encyclopedic nature, the intended mode of reading is non-linear. We offer cross-references to allow the readers to navigate through the various topics. We complement the theoretical concepts and applications covered by large lists of free or open-source software implementations and publicly-available databases. (C) 2021 The Author( s). Published by Elsevier B.V. on behalf of International Institute of Forecasters.}
+      \field{issn}{0169-2070}
+      \field{journaltitle}{INTERNATIONAL JOURNAL OF FORECASTING}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Forecasting: theory and practice}
+      \field{type}{Review}
+      \field{volume}{38}
+      \field{year}{2022}
+      \field{pages}{705\bibrangedash 871}
+      \range{pages}{167}
+      \verb{doi}
+      \verb 10.1016/j.ijforecast.2021.11.001
+      \endverb
+      \keyw{Review; Encyclopedia; Methods; Applications; Principles; Time series; Prediction}
+    \endentry
+    \entry{WOS:000788587300109}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=91cd911c299fce5d9dc9eee287889a54}{%
+           family={Ponnamperuma},
+           familyi={P\bibinitperiod},
+           given={Narmada},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6b01a5b714a9e201125fd393a36c7fa7}{%
+           family={Rajapakse},
+           familyi={R\bibinitperiod},
+           given={Lalith},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {345 E 47TH ST, NEW YORK, NY 10017 USA}%
+      }
+      \list{organization}{1}{%
+        {IEEE; IEEE Sri Lanka Sect; IEEE Univ Moratuwa Student Branch; Univ Moratuwa, Engn Res Univ; IEEE Sri Lanka Sect, Robot \& Automat Soc Chapter; IEEE Power \& Energy Soc Chapter, Sri Lanka Sect; IEEE Commun Soc Chapter, Sri Lanka Sect; Univ Moratuwa, Fac Engn; Univ Moratuwa, Fac Grad Studies; Univ Moratuwa, Senate Res Comm}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cf82665893afc7307c97a0616f88f53e}
+      \strng{fullhash}{cf82665893afc7307c97a0616f88f53e}
+      \strng{bibnamehash}{cf82665893afc7307c97a0616f88f53e}
+      \strng{authorbibnamehash}{cf82665893afc7307c97a0616f88f53e}
+      \strng{authornamehash}{cf82665893afc7307c97a0616f88f53e}
+      \strng{authorfullhash}{cf82665893afc7307c97a0616f88f53e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Forecasting of rainfall is important to be prepared for future weather-related disasters. Rainfall data can be categorized as time series data because rainfall data can be recorded in chronological order. Time series forecast is used in fields like economics, environmental, and engineering predictions as a decision support factor. Due to the importance, many models and methodologies have been developed for time series forecasts according to the types of inputs, expected outcomes, and easy applicability. This research was conducted to identify the most appropriate time series forecast model for rainfall prediction. A regression type model and a neural network model were selected to identify which type of forecast model is more suitable for rainfall prediction. ARIMA model and Recurrent Neural Network model of Non-linear Auto-Regressive Moving Average were selected as the candidate prediction models for time series forecast and the models were developed for rainfall forecast. From the developed models, it was observed that the RNN models are suitable for long-term prediction of rainfall and drought with the availability of a higher number of past rainfall data while the ARIMA model is more suitable for prediction of rainfall where there is less past recorded rainfall data for a short-term forecast period.}
+      \field{booktitle}{MORATUWA ENGINEERING RESEARCH CONFERENCE (MERCON 2021) / 7TH INTERNATIONAL MULTIDISCIPLINARY ENGINEERING RESEARCH CONFERENCE}
+      \field{isbn}{978-1-6654-3753-0}
+      \field{note}{Moratuwa Engineering Research Conference (MERCon) / 7th International Multidisciplinary Engineering Research Conference, Univ Moratuwa, Moratuwa, SRI LANKA, JUL 27-29, 2021}
+      \field{title}{Comparison of Time Series Forecast Models for Rainfall and Drought Prediction}
+      \field{type}{Proceedings Paper}
+      \field{year}{2021}
+      \field{pages}{626\bibrangedash 631}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MERCON52712.2021.9525690
+      \endverb
+      \keyw{rainfall forecasting; time series models; ARIMA; RNN; machine learning}
+    \endentry
+    \entry{vaidyanathan2007theory}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e5e0d2888d2c2e92f13144abe325cb49}{%
+           family={Vaidyanathan},
+           familyi={V\bibinitperiod},
+           given={P.P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan \& Claypool Publishers}%
+      }
+      \strng{namehash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \strng{fullhash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \strng{bibnamehash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \strng{authorbibnamehash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \strng{authornamehash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \strng{authorfullhash}{e5e0d2888d2c2e92f13144abe325cb49}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781598295764}
+      \field{series}{Synthesis Lectures on Signal Processing}
+      \field{title}{The Theory of Linear Prediction}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://books.google.sk/books?id=6bJeAQAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.sk/books?id=6bJeAQAAQBAJ
+      \endverb
+    \endentry
+    \entry{WOS:001091632800001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=783b26bee9962dd887fe0df281760549}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d1e176dca55e14782d25d87a07ed49e1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fushun},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND}%
+      }
+      \list{publisher}{1}{%
+        {FRONTIERS MEDIA SA}%
+      }
+      \strng{namehash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \strng{fullhash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \strng{bibnamehash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \strng{authorbibnamehash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \strng{authornamehash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \strng{authorfullhash}{4cb06cb5df631dbd95e4b0cd066bb0d4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The brain, an exceedingly intricate information processing system, poses a constant challenge to memory research, particularly in comprehending how it encodes, stores, and retrieves information. Cognitive psychology studies memory mechanism from behavioral experiment level and fMRI level, and neurobiology studies memory mechanism from anatomy and electrophysiology level. Current research findings are insufficient to provide a comprehensive, detailed explanation of memory processes within the brain. Numerous unknown details must be addressed to establish a complete information processing mechanism connecting micro molecular cellular levels with macro cognitive behavioral levels. Key issues include characterizing and distributing content within biological neural networks, coexisting information with varying content, and sharing limited resources and storage capacity. Compared with the hard disk of computer mass storage, it is very clear from the polarity of magnetic particles in the bottom layer, the division of tracks and sectors in the middle layer, to the directory tree and file management system in the high layer, but the understanding of memory is not sufficient. Biological neural networks are abstracted as directed graphs, and the encoding, storage, and retrieval of information within directed graphs at the cellular level are explored. A memory computational model based on active directed graphs and node-adaptive learning is proposed. First, based on neuronal local perspectives, autonomous initiative, limited resource competition, and other neurobiological characteristics, a resource-based adaptive learning algorithm for directed graph nodes is designed. To minimize resource consumption of memory content in directed graphs, two resource-occupancy optimization strategies-lateral inhibition and path pruning-are proposed. Second, this paper introduces a novel memory mechanism grounded in graph theory, which considers connected subgraphs as the physical manifestation of memory content in directed graphs. The encoding, storage, consolidation, and retrieval of the brain's memory system correspond to specific operations such as forming subgraphs, accommodating multiple subgraphs, strengthening connections and connectivity of subgraphs, and activating subgraphs. Lastly, a series of experiments were designed to simulate cognitive processes and evaluate the performance of the directed graph model. Experimental results reveal that the proposed adaptive connectivity learning algorithm for directed graphs in this paper possesses the following four features: (1) Demonstrating distributed, self-organizing, and self-adaptive properties, the algorithm achieves global-level functions through local node interactions; (2) Enabling incremental storage and supporting continuous learning capabilities; (3) Displaying stable memory performance, it surpasses the Hopfield network in memory accuracy, capacity, and diversity, as demonstrated in experimental comparisons. Moreover, it maintains high memory performance with large-scale datasets; (4) Exhibiting a degree of generalization ability, the algorithm's macroscopic performance remains unaffected by the topological structure of the directed graph. Large-scale, decentralized, and node-autonomous directed graphs are suitable simulation methods. Examining storage problems within directed graphs can reveal the essence of phenomena and uncover fundamental storage rules hidden within complex neuronal mechanisms, such as synaptic plasticity, ion channels, neurotransmitters, and electrochemical activities.}
+      \field{journaltitle}{FRONTIERS IN COMPUTATIONAL NEUROSCIENCE}
+      \field{month}{10}
+      \field{title}{The storage capacity of a directed graph and nodewise autonomous, ubiquitous learning}
+      \field{type}{Article}
+      \field{volume}{17}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3389/fncom.2023.1254355
+      \endverb
+      \keyw{directed graph; storage; parallel distributed learning; memory model; associative memory}
+    \endentry
+  \enddatalist
+  \missing{witte2017statistics}
+\endrefsection
+\endinput
+
