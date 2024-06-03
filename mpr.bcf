@@ -2369,16 +2369,17 @@
     <bcf:citekey order="4" intorder="2">WOS:000415735500004</bcf:citekey>
     <bcf:citekey order="5" intorder="1">WOS:A1989AG08300005</bcf:citekey>
     <bcf:citekey order="6" intorder="1">WOS:000836807400001</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">WOS:000980444400020</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">WOS:001091632800001</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">WOS:000659928700099</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">WOS:000466708200028</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">WOS:000266982600001</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">vaidyanathan2007theory</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">WOS:A1990DY40800023</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">WOS:000266982600001</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">bondy2008graph</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">WOS:000988346000001</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">WOS:000266982600001</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">vaidyanathan2007theory</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">WOS:A1990DY40800023</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">WOS:000266982600001</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">WOS:000980444400020</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">wiener1958</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">WOS:001091632800001</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">WOS:000659928700099</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">WOS:000466708200028</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">bondy2008graph</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">WOS:000988346000001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

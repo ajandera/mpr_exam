@@ -1109,6 +1109,31 @@
       \endverb
       \keyw{directed graph; storage; parallel distributed learning; memory model; associative memory}
     \endentry
+    \entry{wiener1958}{book}{}
+      \name{author}{1}{}{%
+        {{hash=92d5d66d33a1522113c90e979526c281}{%
+           family={Wiener},
+           familyi={W\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Technology Press of MIT}%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{92d5d66d33a1522113c90e979526c281}
+      \strng{fullhash}{92d5d66d33a1522113c90e979526c281}
+      \strng{bibnamehash}{92d5d66d33a1522113c90e979526c281}
+      \strng{authorbibnamehash}{92d5d66d33a1522113c90e979526c281}
+      \strng{authornamehash}{92d5d66d33a1522113c90e979526c281}
+      \strng{authorfullhash}{92d5d66d33a1522113c90e979526c281}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear Problems in Random Theory}
+      \field{year}{1958}
+    \endentry
   \enddatalist
   \missing{witte2017statistics}
 \endrefsection

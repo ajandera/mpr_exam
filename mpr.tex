@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amsmath} % for mathematical symbols
@@ -14,10 +14,10 @@
 \vspace{12pt}
 {\large Institute of Control and Informatization of Production Processes}\\
 \vspace{64pt}
-{\textbf{Mathematical methods and tools for the management and computerization of processes}}\\
+{\textbf{Mathematical method for identification, modelling and simulation}}\\
 }
 \author{Ing. Ales Jandera}
-\date{30. April 2024}
+\date{10. May 2024}
 
 \begin{document}
 
@@ -29,30 +29,77 @@
 
 \newpage
 
-\chapter{Introduction}
+\section{Basic Concepts}
 
-Predictive modeling is essential across various disciplines, aiming to
-forecast future outcomes based on historical data and underlying patterns.
-Linear models, like linear regression, assume a straightforward
-relationship between input and output variables, making them interpretable
-and computationally efficient. Nonlinear models, such as neural networks
-and decision trees, capture more complex relationships but may require
-more computational resources.\\
+\textbf{Object}\\
+In systems theory, we refer to a real-existing thing as an object, consisting of
+interconnected parts.\\
+\\
+\textbf{System}\\
+The object of study. Thus, a system is a certain abstract interpretation of the real
+reality - the object. It is a formation consisting of smaller parts (subsystems) that
+have mutual connections and also connections to the surroundings of the system.\\
+\\
+\textbf{Model}\\
+Represents the essential properties of real systems in a suitable form, reflecting
+information about the system. It expresses or simulates the behavior of the system.\\
+\\
+\textbf{Model Creation}\\
+Models are created based on the relevant equations and conditions. For linear systems,
+this involves differential equations; for nonlinear systems, it involves difference
+equations.\\
+\\
+\textbf{Block Description}\\
+A graphical representation of the system forms a block, which has one or more inputs
+and one or more outputs, and typically includes a relationship between input and output,
+most often expressed mathematically (differential equation, image transfer, etc.).
+Signals are represented by oriented segments, transformations by blocks, and signal
+division by a dot at the junction of the segments.\\
+\\
+\textbf{Linear Systems}\\
+These are systems for which the superposition principle applies, or which have a
+linear static characteristic.\\
+\\
+\textbf{Nonlinear Systems}\\
+These are systems where the superposition principle does not apply. Most dynamic
+systems are nonlinear. Methods from the field of linear systems do not apply here.\\
+\\
+\textbf{Static Systems}\\
+Systems where, after a step change in the input quantity (action, disturbance), the
+output quantity (regulated) stabilizes itself to a new value.\\
+\\
+\textbf{Dynamic Systems}\\
+A formation (thing) with internal organization, exposed to the flow of input signals
+(independent of the state and activity of this system) and producing as a result of its
+activity a flow of output signals. Time is always an element of the parametric set of a
+dynamic system.\\
+\\
+\textbf{Continuous Systems}\\
+Systems whose input, state, and output quantities are defined at any time, i.e.,
+there is no time when they are not defined.\\
+\\
+\textbf{Discrete Systems}\\
+Systems where the input, output, and state quantities are defined only at discrete
+values of the independent variable. If the system's variables take values from the
+set of integers, we say that it is a discrete system.\\
+\\
+\textbf{Control Objective}\\
+The fundamental goal of control is the implementation of automatic control in the
+form of automated control systems.\\
+\\
+\textbf{Approaches}\\
+Cybernetic, process-centric / centralized, decentralized\\
+\\
+\textbf{Method}\\
+\begin{itemize}
+    \item Feedforward is a method of open-loop control, where the desired value is brought into the control device, which adjusts the control variable according to a given program.
+    \item Compensatory is an open control circuit, the desired output value is brought into the compensator, or regulator, which adjusts the control variable of the object also considering the affecting disturbance.
+    \item Feedback is closed-loop control, the desired value is compared with the measured actual value, and based on the resulting difference, the regulator adjusts the control variable of the object.
+\end{itemize}
 
-\noindent In addition to linear and nonlinear models, behavioral prediction
-models are gaining prominence. These models integrate psychological,
-sociological, and behavioral factors to predict human behavior. They
-aim to understand and anticipate human decision-making processes,
-providing valuable insights in fields like marketing, public health,
-and economics.\\
+\section{Mathematical models}
 
-\noindent In this material, we'll look on prediction models from mathematical
-point of view. We'll show basic usage and computations of that models and describe
-the machanism of controlling of them.
-
-\chapter{Prediction models}
-
-\section{Linear Regression Models}
+\subsection{Linear Regression Models}
 
 Linear prediction models are a class of statistical models that assume
  a linear relationship between the input variables and the target
@@ -254,7 +301,7 @@ coefficients to exactly zero, effectively performing feature selection.\\
 \\
 The choice between Ridge and Lasso regression depends on the specific characteristics of the dataset and the desired properties of the resulting model.
 
-\section{Linear prediction}\label{lp}
+\subsection{Linear prediction}\label{lp}
 Linear prediction is a method, that is extensively employed in signal
 processing to forecast future values of a time series by analyzing past observations.
 This technique is based on the premise that the current sample of a signal can be described by a linear combination
@@ -266,7 +313,7 @@ marketing to make long-term projections about variables such as sales, demand, o
 prices, with the goal to provide a~comprehensive and accurate forecast that can be used to
 make strategic decisions in the~long term~\cite{WOS:A1989AG08300005}.
 %
-\subsection{Short-term linear prediction}\label{slp}
+\subsubsection{Short-term linear prediction}\label{slp}
 Short-term linear prediction focuses on forecasting the immediate future values in a sequence.
 The model representation involves approximating a time series as a linear
 combination of its past values, providing a foundation for estimating the next value~\cite{WOS:000836807400001}.
@@ -279,7 +326,7 @@ one or more independent variables in a~linear form. The~goal of linear predictio
 the~best linear approximation of the relationship between the~variables, which can then be
 used to make predictions about future values of the~dependent variable.
 %
-\subsection{Parameters estimation}\label{parameterslp}
+\subsubsection{Parameters estimation}\label{parameterslp}
 Parameter estimation in linear prediction involves determining the coefficients of a linear
 model that best represents a given dataset. In the context of linear prediction, this typically
 refers to estimating the coefficients of a linear filter that minimizes prediction error.\\
@@ -350,7 +397,53 @@ the coefficients of a linear model that best fits the data and minimizes predict
 It requires careful consideration of the model assumptions, choice of estimation method, and
 evaluation of model performance.
 
-\section{Non-linear Prediction models}
+\subsubsection{Long-term linear prediction} \label{ltlp}
+\noindent Long-term linear prediction (LTLP) refers to the~use of linear prediction techniques to make
+predictions about the~future values of a~time series over~an~extended period of time~\cite{WOS:000266982600001},
+typically several months to several years. Unlike short-term linear prediction, which focuses
+on forecasting the~near-term future, long-term linear prediction aims to provide a~more
+comprehensive and accurate forecast of future values. Combining these two components, short-term and long-term, one obtains the relation~\cite{vaidyanathan2007theory, WOS:A1990DY40800023}:
+%
+\begin{equation}\label{eq10}
+    \hat{x}(n) = \sum_{i=1}^{p} a_i x(n-i) + \sum_{i=-q}^{q} b_i x(n-i-Q),
+\end{equation}
+%
+where $\hat{x}(n)$ is the~predicted value of the~signal at instance~$n$,
+$p$ is the order of the short-term predictor, that uses $p$ past samples, $q$
+is the order of the long-term predictor, that uses $2q+1$ samples a pitch period ($Q$) away,
+and $a_i$, $b_i$, are the~short-term predictor coefficients, the~long-term predcitor coefficients, respectively (see Fig.~\ref{fig1}).
+
+%
+\begin{center}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=\columnwidth]{shift}
+        \caption{Pitch-lag in long-term prediction~\cite{WOS:000266982600001}.}
+        \label{fig1}
+    \end{figure}
+\end{center}
+
+\subsection{Linear Model with Transportation Delay}
+
+A linear model with transportation delay is used to model situationswhe
+re there is a linear relationship between input variables and the
+output variable, but the output has a time delay caused by the
+transportation system or process. This model can be expressed as:\\
+
+\begin{equation}
+    y(t) = \beta_0 + \beta_1 x(t - \tau) + \epsilon,
+\end{equation}
+
+\noindent where\\
+\( y(t) \) is the output variable at time \( t \),\\
+\( x(t - \tau) \) is the input variable at time \( t - \tau \), where \( \tau \) is the transportation delay,\\
+\( \beta_0 \) and \( \beta_1 \) are the coefficients of the model,\\
+\( \epsilon \) is the model error.\\
+
+\noindent This model is used, for example, in modeling signals in telecommunications
+or in modeling dynamic systems with time delays.
+
+\subsection{Non-linear Models}
 
 Nonlinear prediction models are mathematical frameworks used to capture complex relationships
 between input variables and the target variable in prediction tasks. Unlike linear models,
@@ -358,35 +451,139 @@ which assume a linear relationship between predictors and the target, nonlinear 
 capture more intricate patterns in the data. Here's an overview of some common nonlinear
 prediction models~\cite{WOS:000980444400020}.\\
 \\
-\textbf{Polynomial Regression}\\
-Polynomial regression fits a polynomial function to the data, allowing for curved
-relationships between predictors and the target variable.\\
+\subsubsection{Volterra Series}
+The Volterra series~\cite{wiener1958} models the output of a nonlinear system as a functional series,
+where the output depends not only on the current input but also on past inputs, capturing
+the history-dependent behavior of the system. This is crucial for accurately describing
+systems where the output is not merely a direct proportional response to the input.\\
+\\
+Components of the Volterra Series:\\
+\begin{enumerate}
+\item Linear and Nonlinear Kernels of the Volterra series is built up of kernels of
+increasing order that correspond to the system's linear, quadratic, cubic, and
+higher-order responses. Each kernel integrates the product of input values at multiple
+time points, reflecting the combined effects of these inputs over time.
+\item Integration over Time Delays involve the kernels integration over different combinations
+of time delays, representing how past inputs influence the current output.
+This integration makes the model particularly useful for analyzing systems with memory.\\
+\item Expansion Terms series includes terms of increasing complexity, with each
+higher-order term accounting for more complex interactions between input values
+at different times. The first-order kernel represents the linear response, the
+second-order kernel captures pairwise interactions (quadratic nonlinearity), and
+higher-order kernels describe more complex dynamics.
+\end{enumerate}
 
+\noindent Applications of Voltera Series models are in the \textbf{Signal Processing} where Volterra series
+are used to model and predict nonlinear distortions in signals, such as
+in audio processing or telecommunications, where equipment nonlinearity affects the
+signal integrity then in \textbf{Control Systems} in control theory helps in designing controllers
+that can handle nonlinear dynamics effectively, ensuring stability and performance in
+nonlinear control systems. In the \textbf{Biological Systems} are applied in modeling
+the nonlinear responses of biological systems, such as the neural response functions
+in sensory systems where the output response to stimuli is inherently nonlinear.\\
+\\
+As the order of interaction increases, the computational complexity of the model can
+grow significantly, making higher-order models difficult to manage. Accurately estimating
+the higher-order kernels requires extensive data, and the model may suffer from
+overfitting if not properly regularized or if the data is not sufficient.\\
+\\
+The Volterra series provides a powerful framework for understanding and predicting
+the behavior of nonlinear systems, though its practical application requires careful
+consideration of its complexity and the computational resources available.\\
+\\
+\textbf{Volterra Series Expansion}\\
+\\
+The output \( y(t) \) of a nonlinear system in response to an input \( x(t) \) can be
+expressed as:
 \begin{equation}
-    y = \beta_0 + \beta_1 x + \beta_2 x^2 + \ldots + \beta_n x^n + \epsilon
+    y(t) = h_0 + \sum_{n=1}^{\infty} \int_{-\infty}^\infty \int_{-\infty}^\infty \cdots \int_{-\infty}^\infty h_n(\tau_1, \tau_2, \ldots, \tau_n) x(t-\tau_1) x(t-\tau_2) \cdots x(t-\tau_n) \, d\tau_1 \, d\tau_2 \cdots d\tau_n,
+\end{equation}
+\noindent where, \( h_n(\tau_1, \tau_2, \ldots, \tau_n) \) are the Volterra kernels, which
+are functions characterizing the system's response at different orders of interaction
+between time-shifted inputs. Each kernel \( h_n \) corresponds to the \( n \)-th order
+of nonlinearity in the system's response:\\
+
+\noindent \( h_0 \) is a constant term, often representing the system's output at zero input.
+\( h_1(\tau_1) \) is the first-order kernel or linear response of the system.
+\( h_2(\tau_1, \tau_2) \) is the second-order kernel, capturing the pairwise nonlinear interactions.
+\( h_3(\tau_1, \tau_2, \tau_3) \)* and higher-order kernels account for increasingly complex interactions.\\
+\\
+\textbf{First and Second-Order Kernels}\\
+\\
+For practical applications, the Volterra series is often truncated after a few terms.
+Here's how the first and second-order terms are typically expressed:\\
+\\
+First-order (linear) response:\\
+\begin{equation}
+   y_1(t) = \int_{-\infty}^\infty h_1(\tau_1) x(t-\tau_1) \, d\tau_1
+\end{equation}
+
+Second-order (quadratic) response:\\
+\begin{equation}
+    y_2(t) = \int_{-\infty}^\infty \int_{-\infty}^\infty h_2(\tau_1, \tau_2) x(t-\tau_1) x(t-\tau_2) \, d\tau_1 \, d\tau_2
 \end{equation}
 \\
-\textbf{Generalized Additive Models (GAMs)}\\
-GAMs extend linear models by allowing for the inclusion of nonlinear functions of predictors,
-such as splines or smoothing functions.\\
-
+\subsubsection{Polynomial Regression}
+Polynomial regression is a form of regression analysis in which the relationship between
+the independent variable \(x\) and the dependent variable \(y\) is modeled as an nth degree
+polynomial. Polynomial regression fits a nonlinear relationship between the value
+of \(x\) and the corresponding conditional mean of \(y\), denoted \(E(y|x)\). Although
+the model is nonlinear in the predictors, it is linear in the parameters, making it a
+form of linear regression.\\
+\\Polynomial regression can fit a wide range of curvature in the data by adjusting
+the degree of the polynomial, providing a better fit to the dataset than simple
+linear regression.\\
+\\
+\textbf{Degree of Polynomial}\\
+The degree of the polynomial is a crucial choice in polynomial regression. Higher degrees
+can fit the data better but can also lead to overfitting where the model captures noise
+rather than the underlying data pattern. Typically, polynomial terms up to the second
+degree (quadratic), third degree (cubic), or fourth degree are used, depending on the data
+complexity.\\
+\\
+\textbf{Model Equation}
 \begin{equation}
-    y = f_1(x_1) + f_2(x_2) + \ldots + f_p(x_p) + \epsilon
+   y = \beta_0 + \beta_1x + \beta_2x^2 + \beta_3x^3 + ... + \beta_nx^n + \epsilon.
 \end{equation}
+where \( \beta_0, \beta_1, ..., \beta_n \) are parameters to be estimated,
+and \( \epsilon \) is the error term.\\
 \\
-\textbf{Decision Trees}\\
-Decision trees recursively partition the feature space into regions, making predictions
-based on the majority class or average target value of the instances within each region.\\
+Polynomial regression is widely used in situations where data exhibit trends that are
+not captured well by linear models. This includes fields like economics for trend
+analysis, in science for empirical formulas based on experimental data, and in quality.
+
+\subsubsection{Generalized Additive Models (GAMs)}
+Generalized Additive Models (GAMs) are a flexible class of models used in statistics to
+extend linear models by allowing non-linear functions of the predictor variables while
+maintaining overall interpretability. Developed by Trevor Hastie and Robert Tibshirani in
+the late 1980s, GAMs provide a way to model complex behaviors in data without specifying
+a parametric form for the relationship between predictors and response variable.\\
 \\
-\textbf{Random Forests}\\
-Random forests are ensemble learning methods that combine multiple decision trees to improve
-predictive performance. Each tree is trained on a random subset of the data and features.\\
+GAMs generalize the linear model by allowing the linear predictor to depend linearly on
+unknown smooth functions of some predictor variables. The general form of a GAM is:
+\begin{equation}
+   g(E(Y)) = \beta_0 + f_1(X_1) + f_2(X_2) + \ldots + f_p(X_p),
+\end{equation}
+where, \( g \) is a link function (as used in Generalized Linear
+Models, GLMs), \( E(Y) \) is the expected value of the response
+variable \( Y \), \( \beta_0 \) is the intercept, and \( f_i \) are smooth,
+non-linear functions of the predictor variables \( X_i \).\\
 \\
-\textbf{Support Vector Machines (SVM)}\\
-SVMs find the hyperplane that best separates the classes or approximates the decision boundary
-in regression tasks. They can use kernel functions to handle nonlinear relationships.\\
+The functions \( f_i(X_i) \) can be specified in various ways, typically using splines
+or local regression techniques. This allows the model to capture complex nonlinear
+relationships between each predictor and the response.Each function \( f_i \) is
+estimated from the data, typically through a backfitting algorithm that iteratively
+updates each function to better fit the data while keeping other functions fixed.\\
 \\
-\textbf{Neural Networks}\\
+GAMs are particularly useful in scenarios where the relationship between the response and
+predictors is suspected to be non-linear or involves interactions, such as in ecological
+modeling, epidemiology, and economic forecasting.\\
+They are used in both regression (continuous response) and classification (categorical
+response) contexts. GAMs can model complex patterns in the data without assuming a specific
+parametric form for the relationship. They can handle varying types of data and
+distributions by choosing an appropriate link function and error distribution, much like
+GLMs.\\
+\subsubsection{Neural Networks}
 Neural networks are inspired by the neural architecture of the human brain,
 consisting of interconnected neurons organized
 into layers. These networks process raw data from the input layer through hidden layers,
@@ -415,7 +612,7 @@ Each input $x_n$ undergoes weighting by the
 corresponding weight $w_n$ before entering the summation stage. Subsequently, the weighted
 summation is transmitted to the activation unit, which generates the neuron's output signal.\\
 \\
-\textbf{Gaussian Processes}\\
+\subsubsection{Gaussian Processes}
 Gaussian processes are probabilistic models that represent distributions over functions.
 They are particularly useful for modeling uncertainty and can capture complex nonlinear
 patterns in the data.\\
@@ -424,54 +621,59 @@ These nonlinear prediction models offer flexibility in capturing intricate relat
 in the data and are widely used in various fields such as finance, healthcare, engineering,
 and more. Choosing the appropriate model depends on the specific characteristics of the
 data and the task at hand.\\
-
-\subsection{Long-term linear prediction} \label{ltlp}
-\noindent Long-term linear prediction (LTLP) refers to the~use of linear prediction techniques to make
-predictions about the~future values of a~time series over~an~extended period of time~\cite{WOS:000266982600001},
-typically several months to several years. Unlike short-term linear prediction, which focuses
-on forecasting the~near-term future, long-term linear prediction aims to provide a~more
-comprehensive and accurate forecast of future values. Combining these two components, short-term and long-term, one obtains the relation~\cite{vaidyanathan2007theory, WOS:A1990DY40800023}:
-%
-\begin{equation}\label{eq10}
-    \hat{x}(n) = \sum_{i=1}^{p} a_i x(n-i) + \sum_{i=-q}^{q} b_i x(n-i-Q),
-\end{equation}
-%
-where $\hat{x}(n)$ is the~predicted value of the~signal at instance~$n$,
-$p$ is the order of the short-term predictor, that uses $p$ past samples, $q$
-is the order of the long-term predictor, that uses $2q+1$ samples a pitch period ($Q$) away,
-and $a_i$, $b_i$, are the~short-term predictor coefficients, the~long-term predcitor coefficients, respectively (see Fig.~\ref{fig1}).
-
-%
-\begin{center}
-    \begin{figure}[!ht]
-        \centering
-        \includegraphics[width=\columnwidth]{shift}
-        \caption{Pitch-lag in long-term prediction~\cite{WOS:000266982600001}.}
-        \label{fig1}
-    \end{figure}
-\end{center}
-
-\section{Linear Model with Transportation Delay}
-
-A linear model with transportation delay is used to model situationswhe
-re there is a linear relationship between input variables and the
-output variable, but the output has a time delay caused by the
-transportation system or process. This model can be expressed as:\\
-
+\\
+\textbf{Gaussian Process Regression}\\
+\\
+At the core of Gaussian process regression (GPR), the idea is that the data can be
+described by a Gaussian distribution characterized by a mean and a covariance
+function (or kernel). This approach assumes that the function values are random
+variables which have a joint Gaussian distribution.\\
+\\
+The fundamental equation for a Gaussian Process is generally expressed as:
 \begin{equation}
-    y(t) = \beta_0 + \beta_1 x(t - \tau) + \epsilon,
+    y(x) = f(x) + \epsilon,
 \end{equation}
+Where:
+\( y(x) \) is the observed output at point \( x \),
+\( f(x) \) is the latent function that we want to learn,
+\( \epsilon \) is the noise in the observations, typically assumed to be Gaussian, i.e., \( \epsilon \sim \mathcal{N}(0, \sigma^2) \).\\
+\newpage
+\noindent \textbf{Gaussian Process Model}\\
+\\
+A Gaussian process is fully specified by its mean function \( m(x) \) and covariance
+function \( k(x, x') \):
+\begin{equation}
+    f(x) \sim \mathcal{GP}(m(x), k(x, x')),
+\end{equation}
+Where:
+\( m(x) \) is the mean function, which is often assumed to be zero in many applications because the GP can model the mean arbitrarily well with enough data.
+\( k(x, x') \) is the covariance function or kernel, which defines the shape of the function or the way in which the function values are correlated with each other. Popular choices for the kernel include the Squared Exponential (SE), Rational Quadratic, or Matérn kernels.\\
+\\
+\textbf{Predictive Distribution}\\
+\\
+Given some observed data points \( D = \{(x_i, y_i)\}_{i=1}^n \) and a new test
+point \( x^* \), the predictive distribution of the output \( y^* \) at \( x^* \) is also
+Gaussian:
+\begin{equation}
+    y^*|x^*, D \sim \mathcal{N}(\mu^*, \sigma^{*2})
+\end{equation}
+With the predictive mean and variance given by:\\
+\begin{equation}
+\mu^* = k(x^*, X) [K + \sigma^2I]^{-1} Y
+\end{equation}
+\begin{equation}
+\sigma^{*2} = k(x^*, x^*) - k(x^*, X) [K + \sigma^2I]^{-1} k(X, x^*),
+\end{equation}
+where:\\
+\( X \) is the matrix of training inputs,\\
+\( Y \) is the vector of training outputs,\\
+\( K \) is the covariance matrix computed between all pairs of training inputs,\\
+\( k(x^*, X) \) is the vector of covariances between the test point and all training points,\\
+\( k(x^*, x^*) \) is the variance of the test point under the GP prior,\\
+\( I \) is the identity matrix,\\
+\( \sigma^2 \) is the noise variance.
 
-\noindent where\\
-\( y(t) \) is the output variable at time \( t \),\\
-\( x(t - \tau) \) is the input variable at time \( t - \tau \), where \( \tau \) is the transportation delay,\\
-\( \beta_0 \) and \( \beta_1 \) are the coefficients of the model,\\
-\( \epsilon \) is the model error.\\
-
-\noindent This model is used, for example, in modeling signals in telecommunications
-or in modeling dynamic systems with time delays.
-
-\section{Non-linear Model with Transportation Delay}
+\subsection{Non-linear Model with Transportation Delay}
 
 A nonlinear model with transportation delay extends the linear model by
 allowing nonlinear relationships between input and output variables and
@@ -482,7 +684,7 @@ can be generally expressed as:
     y(t) = f(x(t - \tau), \theta) + \epsilon,
 \end{equation}
 
-\noindent where\\
+\noindent where:\\
 \( y(t) \) is the output variable at time \( t \),\\
 \( f \) is a nonlinear function,\\
 \( \tau \) is the transportation delay\\
@@ -774,118 +976,6 @@ flow algorithms.\\
 \\
 These mathematical equations and concepts provide a foundation for analyzing and understanding
 the structure, function, and dynamics of complex networks in diverse fields.
-
-\chapter{Controlling}
-
-Controlling a system from a mathematical and cybernetics perspective involves using
-mathematical models and principles of cybernetics to understand, analyze, and influence
-the behavior of the system. The first step in controlling a system is to develop a mathematical
-model that describes its behavior. This model may be based on physical laws, empirical
-data, or a combination of both. Depending on the complexity of the system, the model may
-be represented using differential equations, difference equations, state-space equations, or
-other mathematical formalisms. In many cases, the exact mathematical model of a system may not
-be known or may be too complex to use directly. In such cases, system identification
-techniques are used to estimate the parameters of the model from experimental data or
-observations of the system's behavior.\\
-\\
-Control theory provides the mathematical framework for designing control strategies that
-regulate the behavior of a system to achieve desired objectives. This involves analyzing the
-system's dynamics, designing controllers, and evaluating their performance. Common control
-techniques include PID control, state feedback control, optimal control, and robust control.\\
-\\
-Feedback control is a fundamental concept in cybernetics and control theory. It involves
-continuously monitoring the system's output and comparing it to a reference or desired
-setpoint. The difference, known as the error signal, is used to adjust the system's inputs
-or parameters in real-time to minimize the error and maintain desired performance.\\
-\\
-Cybernetics Principles is the study of systems and processes that regulate themselves
-through feedback loops. From a cybernetic perspective, controlling a system involves
-understanding the system's structure, dynamics, and feedback mechanisms. Cybernetic
-principles such as homeostasis, adaptation, self-organization, and emergence are often
-used to analyze and design control systems.\\
-\\
-Adaptive and Learning Control in many real-world applications, the parameters or dynamics
-of a system may change over time or may not be precisely known. Adaptive and learning control
-techniques are used to adjust the control strategy in real-time based on feedback from the
-system. These techniques allow control systems to adapt to changing conditions and improve
-performance over time.\\
-\\
-Hierarchical Control in complex systems, control may be organized hierarchically, with
-multiple levels of control operating at different time scales or spatial scales. Hierarchical
-control architectures coordinate the actions of different controllers to achieve overall
-system objectives while respecting constraints and optimizing performance.\\
-\\
-Networked Control Systems with the proliferation of networked sensors, actuators, and
-communication technologies, many control systems are now distributed across multiple
-interconnected components. Networked control systems pose unique challenges related to
-communication delays, data fusion, and network security, which must be addressed in the
-design of control strategies.
-
-\section{Linear and non-linear models}
-Controlling linear and nonlinear models involves designing control laws or strategies
-to achieve desired system behavior or performance. The mathematical approaches used for
-controlling such models vary depending on the specific characteristics of the system
-and the control objectives. Here are some common mathematical approaches for
-controlling linear and nonlinear models.\\
 \newpage
-\noindent \textbf{Linear Control Systems}\\
-\\
-State-Space Representation linear time-invariant (LTI) systems can be represented in state-space form as:
-    \begin{equation}
-        \begin{split}
-        \dot{x} = Ax + Bu\\
-        y = Cx + Du,
-        \end{split}
-    \end{equation}
-   where\\
-    \( x \) is the state vector.\\
-    \( u \) is the control input.\\
-    \( y \) is the output.\\
-    \( A \), \( B \), \( C \), and \( D \) are system matrices.\\
-\\
-Transfer Function Representation, linear systems can also be represented in transfer function form, which relates the Laplace transforms of the input and output signals:
-    \begin{equation}
-    Y(s) = G(s) U(s),
-    \end{equation}
-   where\\
-   \( Y(s) \) and \( U(s) \) are the Laplace transforms of the output and input, respectively.\\
-   \( G(s) \) is the transfer function of the system.\\
-\\
-Classical Control Theory such as PID (Proportional-Integral-Derivative) control, root locus, and frequency response analysis (e.g., Bode plots), are commonly used for linear systems. These techniques rely on algebraic and calculus-based methods for designing controllers to achieve desired performance criteria like stability, transient response, and steady-state error.\\
-\\
-State Feedback Control in state-space representation, state feedback control involves designing a state feedback gain matrix \( K \) to stabilize the system or achieve certain performance objectives. Linear quadratic regulator (LQR) and pole placement methods are examples of state feedback control techniques.\\
-\newpage
-\noindent \textbf{Nonlinear Control Systems}\\
-\\
-Lyapunov Stability Analysis  is often used to analyze the stability of nonlinear systems. It involves finding a Lyapunov function \( V(x) \) that satisfies certain conditions to prove stability or asymptotic stability of equilibrium points.\\
-\\
-Feedback Linearization is a technique used to transform a nonlinear system into a linear one through state feedback and input/output transformations. This approach enables the application of linear control techniques to nonlinear systems.\\
-\\
-Sliding Mode Control is a nonlinear control technique that aims to drive the system state onto a predefined sliding surface. It involves designing a discontinuous control law to ensure robustness to system uncertainties and disturbances.\\
-\\
-Model Predictive Control (MPC) is a versatile control strategy used for both linear and nonlinear systems. It involves solving an optimization problem at each time step to determine the control action that minimizes a cost function while satisfying system dynamics and constraints.\\
-\\
-Adaptive Control techniques adjust controller parameters online to adapt to changes in system dynamics or uncertainties. These methods often rely on parameter estimation algorithms and adaptive laws to update controller gains.\\
-\\
-Non-linear Observers are used to estimate the unmeasured states of a nonlinear system based on available measurements. Extended Kalman filters (EKFs) and sliding mode observers are examples of nonlinear observer designs.\\
-\\
-\noindent These are some of the mathematical approaches commonly used for controlling both linear
-and nonlinear systems. The choice of approach depends on the specific characteristics of the
-system, the control objectives, and the available information about the system dynamics.\\
-
-\section{Behavioral models}
-
-Outer control of behavioral models involves managing the behavior of a system or agent
-at a higher level, typically focusing on achieving specific goals or objectives rather
-than directly manipulating the system's dynamics. This can involve designing strategies,
-policies, or interventions to influence the behavior of individuals, groups, or organizations.
-While behavioral models can be quite diverse, ranging from simple decision-making models to
-complex agent-based simulations.\\
-\\
-Controlling of behavioral models depends of the type of the model used. In the sections and subsections
-\ref{gt}, \ref{ut}, \ref{bt}, \ref{sm}, \ref{nm} is shown the models equations which are
-used to control the models bahavior.
-
 \printbibliography
-
 \end{document}
